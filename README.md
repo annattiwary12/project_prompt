@@ -1,54 +1,76 @@
-🧠 Project Prompt
-Project Prompt is a full-stack AI-powered platform that enables users to discover, create, and share useful AI prompts. Built with Next.js 13, MongoDB, and Tailwind CSS, the app features modern authentication, a clean UI, and prompt management functionality.
+# Project Prompt
 
-✨ Features
-🌐 Google OAuth Authentication
+Project Prompt is a full-stack AI-powered platform where users can create, share, and discover AI prompts. Built with Next.js 13, MongoDB, and Tailwind CSS, it offers a sleek UI, Google OAuth authentication, and prompt management features.
+
+# Features
+🌐 Google OAuth Authentication with NextAuth.js
 
 📝 Create, update, and delete AI prompts
 
-🔍 Discover prompts from the community
+🔍 Browse and search community prompts
 
-🔄 Seamless UI with responsive design
+📱 Responsive design with Tailwind CSS
 
-⚡ Server-side rendering and dynamic routes using Next.js 13 app router
+⚡ Server-side rendering and dynamic routing using Next.js 13 app router
 
-🛠️ Tech Stack
-Framework: Next.js 13
+ # Getting Started
+Run these commands in your terminal:
 
-Database: MongoDB (via Mongoose)
-
-Authentication: NextAuth (Google provider)
-
-Styling: Tailwind CSS
-
-Deployment: Vercel
--------------------------------------------------------------------
-🚀 Getting Started
 bash
 Copy code
+# Clone the repository
 git clone https://github.com/annattiwary12/project_prompt.git
+
+# Navigate into the project folder
 cd project_prompt
+
+# Install dependencies
 npm install
+
+# Start the development server
 npm run dev
+Open http://localhost:3000 in your browser.
 
+# Project Structure
+# Folder/File	Description
 
------------
-📁 Folder Structure
-/app         - Routing and pages
-/components - Reusable UI components
-/models      - Mongoose schemas
-/utils       - Database config and helpers
-----------------------------------------------------------
-🔐 Environment Variables
-Create a .env file with:
+/app	Next.js 13 app folder containing routes/pages
 
-env
+/components	Reusable React components
+
+/models	Mongoose schemas defining database models
+
+/utils	Utility functions, database connection logic
+
+.env	Environment variables file
+
+next.config.js	Next.js configuration
+
+package.json	Project metadata and dependency list
+
+tailwind.config.js	Tailwind CSS configuration
+
+ # Environment Variables
+Create a .env file in the root folder and add:
+
+# env
 Copy code
-MONGODB_URI=your_mongo_connection_string
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-NEXTAUTH_URL=http://localhost:3000
------------------------------------------------------------------------------------------------
-📸 Screenshots
-(Add screenshots of homepage, prompt card, or create page )
+MONGODB_URI=your_mongodb_connection_string
 
+GOOGLE_CLIENT_ID=your_google_oauth_client_id
+
+GOOGLE_CLIENT_SECRET=your_google_oauth_client_secret
+
+NEXTAUTH_URL=http://localhost:3000
+
+
+
+# Screenshots
+Add screenshots here to showcase your app’s UI (homepage, prompt cards, create/edit prompt page, etc.)
+![image](https://github.com/user-attachments/assets/316dcb67-7c4b-48ae-b71a-fce5c423c8a7)
+![image](https://github.com/user-attachments/assets/c1878a70-fe76-4eb9-a046-7e07abdb6cae)
+
+
+
+# License
+This project is licensed under the MIT License.
