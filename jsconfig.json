@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // Required for path aliases to work
     "paths": {
-      "@/*": ["./*"]
+      "@components/*": ["components/*"],
+      "@app/*": ["app/*"],
+      "@styles/*": ["styles/*"]
     }
   }
 }
