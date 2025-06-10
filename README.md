@@ -68,7 +68,8 @@ NEXTAUTH_URL=http://localhost:3000
 # Screenshots
 Add screenshots here to showcase your app’s UI (homepage, prompt cards, create/edit prompt page, etc.)
 ![image](https://github.com/user-attachments/assets/316dcb67-7c4b-48ae-b71a-fce5c423c8a7)
-![image](https://github.com/user-attachments/assets/c1878a70-fe76-4eb9-a046-7e07abdb6cae)
+![image](https://github.com/user-attachments/assets/219e4936-1791-454b-af60-6c470d9cfe6d)
+
 
 
 
