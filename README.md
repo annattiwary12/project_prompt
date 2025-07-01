@@ -1,79 +1,78 @@
-# Project Prompt
+# 🚀 Project Prompt
 
-Project Prompt is a full-stack AI-powered platform where users can create, share, and discover AI prompts. Built with Next.js 13, MongoDB, and Tailwind CSS, it offers a sleek UI, Google OAuth authentication, and prompt management features.
+Project Prompt is a full-stack AI-powered platform where users can create, discover, and share prompts for AI models.  
+Built with Next.js 13, MongoDB, and Tailwind CSS, it features Google OAuth authentication, dynamic routing, and full CRUD for prompts.
 
-# Features
-🌐 Google OAuth Authentication with NextAuth.js
+────────────────────────────────────────────────────────────────────
 
-📝 Create, update, and delete AI prompts
+✨ FEATURES
+───────────
+🔐 Google OAuth Authentication with NextAuth.js  
+📝 Create, update, and delete AI prompts  
+🔍 Browse and search community-submitted prompts  
+📱 Responsive UI with Tailwind CSS  
+⚡ Server-side rendering with Next.js 13 App Router  
 
-🔍 Browse and search community prompts
+────────────────────────────────────────────────────────────────────
 
-📱 Responsive design with Tailwind CSS
+📦 TECH STACK
+──────────────
+Frontend : Next.js 13, React, Tailwind CSS  
+Backend  : MongoDB, Mongoose  
+Auth     : Google OAuth + NextAuth.js  
+Deploy   : Vercel (Recommended)
 
-⚡ Server-side rendering and dynamic routing using Next.js 13 app router
+────────────────────────────────────────────────────────────────────
 
- # Getting Started
-Run these commands in your terminal:
+🛠 GETTING STARTED
+────────────────────
 
-bash
-Copy code
-# Clone the repository
-git clone https://github.com/annattiwary12/project_prompt.git
+> Clone the repository
+$ git clone https://github.com/annattiwary12/project_prompt.git
+$ cd project_prompt
 
-# Navigate into the project folder
-cd project_prompt
+> Install dependencies
+$ npm install
 
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-Open http://localhost:3000 in your browser.
-
-# Project Structure
-# Folder/File	Description
-
-/app	Next.js 13 app folder containing routes/pages
-
-/components	Reusable React components
-
-/models	Mongoose schemas defining database models
-
-/utils	Utility functions, database connection logic
-
-.env	Environment variables file
-
-next.config.js	Next.js configuration
-
-package.json	Project metadata and dependency list
-
-tailwind.config.js	Tailwind CSS configuration
-
- # Environment Variables
+> Setup environment variables
 Create a .env file in the root folder and add:
 
-# env
-Copy code
-MONGODB_URI=your_mongodb_connection_string
-
-GOOGLE_CLIENT_ID=your_google_oauth_client_id
-
-GOOGLE_CLIENT_SECRET=your_google_oauth_client_secret
-
+MONGODB_URI=your_mongodb_connection_string  
+GOOGLE_CLIENT_ID=your_google_oauth_client_id  
+GOOGLE_CLIENT_SECRET=your_google_oauth_client_secret  
 NEXTAUTH_URL=http://localhost:3000
 
+> Run the development server
+$ npm run dev
 
+> Visit in your browser:
+http://localhost:3000
 
-# Screenshots
-Add screenshots here to showcase your app’s UI (homepage, prompt cards, create/edit prompt page, etc.)
-![image](https://github.com/user-attachments/assets/316dcb67-7c4b-48ae-b71a-fce5c423c8a7)
+────────────────────────────────────────────────────────────────────
 
-![image](https://github.com/user-attachments/assets/515cf5e3-9e12-4f84-a834-ab4faaf221a2)
+📁 PROJECT STRUCTURE
+─────────────────────
+/app              → Next.js 13 App Router pages/routes  
+/components       → Reusable React components  
+/models           → Mongoose database schemas  
+/utils            → DB connection & helpers  
+.env              → Environment variable config  
+tailwind.config.js → Tailwind CSS config  
+next.config.js    → Next.js settings  
+package.json      → Project scripts and dependencies  
 
+────────────────────────────────────────────────────────────────────
 
+📸 SCREENSHOTS
+─────────────────
 
+Homepage:      https://github.com/user-attachments/assets/316dcb67-7c4b-48ae-b71a-fce5c423c8a7  
+Prompt Card:   https://github.com/user-attachments/assets/515cf5e3-9e12-4f84-a834-ab4faaf221a2
 
+────────────────────────────────────────────────────────────────────
 
-# License
+📃 LICENSE
+────────────
 This project is licensed under the MIT License.
+
+────────────────────────────────────────────────────────────────────
