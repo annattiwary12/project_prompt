@@ -52,14 +52,14 @@ http://localhost:3000
 
 📁 PROJECT STRUCTURE
 ─────────────────────
-/app              → Next.js 13 App Router pages/routes  
-/components       → Reusable React components  
-/models           → Mongoose database schemas  
-/utils            → DB connection & helpers  
-.env              → Environment variable config  
-tailwind.config.js → Tailwind CSS config  
-next.config.js    → Next.js settings  
-package.json      → Project scripts and dependencies  
+# /app              → Next.js 13 App Router pages/routes  
+# /components       → Reusable React components  
+# /models           → Mongoose database schemas  
+# /utils            → DB connection & helpers  
+# .env              → Environment variable config  
+# tailwind.config.js → Tailwind CSS config  
+# next.config.js    → Next.js settings  
+# package.json      → Project scripts and dependencies  
 
 ────────────────────────────────────────────────────────────────────
 
