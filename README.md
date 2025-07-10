@@ -27,20 +27,20 @@ Deploy   : Vercel (Recommended)
 🛠 GETTING STARTED
 ────────────────────
 
-> Clone the repository
-$ git clone https://github.com/annattiwary12/project_prompt.git
-$ cd project_prompt
+# > Clone the repository
+# $ git clone https://github.com/annattiwary12/project_prompt.git
+# $ cd project_prompt
 
-> Install dependencies
+# > Install dependencies
 $ npm install
 
-> Setup environment variables
-Create a .env file in the root folder and add:
+ # > Setup environment variables
+ # Create a .env file in the root folder and add:
 
-MONGODB_URI=your_mongodb_connection_string  
-GOOGLE_CLIENT_ID=your_google_oauth_client_id  
-GOOGLE_CLIENT_SECRET=your_google_oauth_client_secret  
-NEXTAUTH_URL=http://localhost:3000
+# MONGODB_URI=your_mongodb_connection_string  
+# GOOGLE_CLIENT_ID=your_google_oauth_client_id  
+# GOOGLE_CLIENT_SECRET=your_google_oauth_client_secret  
+ # NEXTAUTH_URL=http://localhost:3000
 
 > Run the development server
 $ npm run dev
